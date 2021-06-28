@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/contact.css">
+</head>
+
+<body>
+    <nav>
+        <div class="heading"> <img src="./img/logo.jpg" alt="error while loading"
+                style="width: 40px;padding: 2vh 1vw;height:40px"> </div>
+        <div class="myname" style="margin-top: 3vh;padding-right: 2vw;">Sankit kundu</div>
+        <div class="topnav" id="myTopnav"> <a href="../index.html" class="active">Home</a> <a
+                href="./projects.html">Projects</a> <a href="./contact.html">Contact</a> <a
+                href="./about.html">About</a> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i
+                    class="fa fa-bars"></i> </a> </div>
+    </nav>
+    <div id="contact-box">
+        <form method="POST" action="/contact">
+            <div class="form-group"> <label for="email">Email: </label> <input type="email" name="email" id="email"
+                    placeholder="Enter your email"> </div>
+            <div class="form-group"> <label for="message">Message: </label> <textarea name="message" id="message"
+                    cols="50" rows="7"></textarea> </div><button class="btn" id="contact">Submit</button>
+        </form>
+    </div>
+    <script>function myFunction() { var x = document.getElementById("myTopnav"); if (x.className === "topnav") { x.className += " responsive"; } else { x.className = "topnav"; } }</script>
+</body>
+
+</html>

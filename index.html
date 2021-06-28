@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sankitk kundu CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./express/style/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="heading"> <img src="./express/img/logo.jpg" alt="error while loading"
+                style="width: 40px;padding: 2vh 1vw;height:40px"> </div>
+        <div class="myname" style="margin-top: 3vh;padding-right: 2vw;">Sankit kundu</div>
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html" class="active">Home</a> 
+            <a href="./express/projects.html">Projects</a> 
+            <a href="./express/contact.html">Contact</a>
+            <a href="./express/about.html">About</a> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i> </a> 
+        </div>
+    </nav>
+    <section class="introduction"> <img src="./express/img/front-page.jpg" class="front-image">
+        <div class="intro">
+            <p class="pass">Hello friends this is Sankit kundu , a full -stack developer(noob) and also a competitive
+                programmer I am a 2 star programmer at codechef and I have a rating of 796 in codeforces. I am currently
+                pursuing BTech in Electrical Engineering from National Institue of Technology, Silchar. My hobbies
+                include playing Chess, hacking stuffs, creating websites and programming. </p><button class="btn"><a
+                    href="./express/projects.html">Projects</a></button>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+<script>
+    function myFunction(){ 
+        var x = document.getElementById("myTopnav"); 
+        if (x.className === "topnav") {
+            x.className += " responsive"; 
+        }
+        else { x.className = "topnav"; } 
+    }
+</script>
+
+</html>
