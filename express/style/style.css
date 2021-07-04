@@ -89,7 +89,8 @@ section {
   display: flex;
 }
 .intro {
-  margin-top: 25vh;
+  margin-top: 15vh;
+  text-align: center;
 }
 .intro1 {
   margin-top: 2vh;
@@ -119,7 +120,4 @@ section {
   100% {
       transform: translateY(-10px);
   }
-}
-.intro{
-  text-align: center;
 }
