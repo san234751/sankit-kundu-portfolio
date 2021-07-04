@@ -42,6 +42,9 @@
     padding: 0;
   }
 }
+.front-image{
+  animation: updown 1s infinite alternate;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -108,4 +111,12 @@ section {
 }
 .btn:hover {
   background-color: white;
+}
+@keyframes updown {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-10px);
+  }
 }
