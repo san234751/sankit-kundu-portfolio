@@ -60,28 +60,26 @@ nav {
   color: blue;
 }
 .project {
-  height: 7vh;
+  /* height: 7vh; */
   width: 100%;
   color: white;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
+  display: flex;
 }
 @media screen and (max-width: 999px) {
   .project {
-    display: flexbox;
-    height: 55vh;
+    flex-direction: row;
+    /* height: 55vh; */
   }
   .description {
-    display: flexbox;
-    height: 40vh;
+    display: flex;
+    /* height: 40vh; */
   }
 }
 .description {
   margin: 1vh 2vw;
   padding: 1vh 2vw;
-  height: 28vh;
-  width: 25vw; /* border: 3px solid red; border-radius: 5px; */
+  height: 8vh;
+  width: 15vw; /* border: 3px solid red; border-radius: 5px; */
 }
 .description .button {
   margin-top: 2vh;
@@ -90,4 +88,39 @@ nav {
   text-decoration: none;
   color: black;
   font-family: "Lobster", cursive;
+}
+#services{
+  margin: 34px;
+  display: flex;
+  color: white;
+}
+#services .box{ 
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 2px 55px;
+  border-radius: 28px;
+  background: black;
+  margin-bottom: 20px;
+}
+#services .box h1{ 
+ height: 160px;
+ margin: auto;
+ display: block;
+}
+.btn{
+  padding: 6px 20px;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  cursor:pointer;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: white;
+}
+.btn a{
+  text-decoration: none;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
 }
