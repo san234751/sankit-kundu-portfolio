@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +8,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/contact.css">
 </head>
 
 <body>
-    <nav>
-        <div class="heading"> <img src="./img/logo.jpg" alt="error while loading"
-                style="width: 40px;padding: 2vh 1vw;height:40px"> </div>
-        <div class="myname" style="margin-top: 3vh;padding-right: 2vw;">Sankit kundu</div>
-        <div class="topnav" id="myTopnav"> <a href="../index.html" class="active">Home</a> <a
-                href="./projects.html">Projects</a> <a href="./contact.html">Contact</a> <a
-                href="./about.html">About</a> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i
-                    class="fa fa-bars"></i> </a> </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img class="d-inline-block align-text-top"src="./img/logo.jpg" width="50" height="50"></a>
+            <a class="navbar-brand" href="../index.html">Sankit kundu</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div id="contact-box">
         <form method="POST" action="/contact">
             <div class="form-group"> <label for="email">Email: </label> <input type="email" name="email" id="email"
@@ -30,7 +46,6 @@
                     cols="50" rows="7"></textarea> </div><button class="btn" id="contact">Submit</button>
         </form>
     </div>
-    <script>function myFunction() { var x = document.getElementById("myTopnav"); if (x.className === "topnav") { x.className += " responsive"; } else { x.className = "topnav"; } }</script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
