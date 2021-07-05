@@ -1,12 +1,3 @@
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 .na{
   color: white;
 }
@@ -20,7 +11,7 @@ html {
 body {
   background-color: black;
   font-family: "Lobster", cursive;
-  font-size: 0px;
+  font-size: 20px;
 }
 .btn {
   padding: 6px 20px;
