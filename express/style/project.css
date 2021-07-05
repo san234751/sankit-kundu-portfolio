@@ -7,20 +7,11 @@
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+.d-flex{
+  display: flex;
+}
+.na{
+  color: white;
 }
 html {
   scroll-behavior: smooth;
@@ -30,65 +21,11 @@ html {
   padding: 0;
 }
 body {
-  /* background-color: rgb(206, 240, 126); */
+  background-color: black;
   font-family: "Lobster", cursive;
-  font-size: 20px;
+  font-size: 0px;
 }
-nav {
-  display: flex;
-  margin: 2vh;
-}
-.topnav {
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 3vh 2vw;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bolder;
-}
-.topnav a:hover {
-  color: rgb(181, 190, 55);
-}
-.topnav .icon {
-  display: none;
-}
-.myname {
-  color: blue;
-}
-.project {
-  /* height: 7vh; */
-  width: 100%;
-  color: white;
-  display: flex;
-}
-@media screen and (max-width: 999px) {
-  .project {
-    flex-direction: row;
-    /* height: 55vh; */
-  }
-  .description {
-    display: flex;
-    /* height: 40vh; */
-  }
-}
-.description {
-  margin: 1vh 2vw;
-  padding: 1vh 2vw;
-  height: 8vh;
-  width: 15vw; /* border: 3px solid red; border-radius: 5px; */
-}
-.description .button {
-  margin-top: 2vh;
-}
-.description a {
-  text-decoration: none;
-  color: black;
-  font-family: "Lobster", cursive;
-}
+
 #services{
   margin: 34px;
   display: flex;
@@ -98,7 +35,7 @@ nav {
   border: 2px solid brown;
   padding: 34px;
   margin: 2px 55px;
-  border-radius: 28px;
+  border-radius: 10px;
   background: black;
   margin-bottom: 20px;
 }
@@ -117,7 +54,6 @@ nav {
 }
 .btn:hover{
   cursor: pointer;
-  background-color: white;
 }
 .btn a{
   text-decoration: none;
