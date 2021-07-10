@@ -36,10 +36,10 @@ body {
   color: white;
 }
 #services .box{ 
-  /*border: 2px solid brown;*/
+  border: 2px solid brown;
   padding: 34px;
   margin: 2px 55px;
-  border-radius: 10px;
+  border-radius: 3px;
   background: black;
   margin-bottom: 20px;
 }
