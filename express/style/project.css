@@ -48,14 +48,3 @@ body {
  margin: auto;
  display: block;
 }
-.front-image{
-  animation: updown 1s infinite alternate;
-}
-@keyframes updown {
-  0% {
-      transform: translateY(0);
-  }
-  100% {
-      transform: translateY(-10px);
-  }
-}
