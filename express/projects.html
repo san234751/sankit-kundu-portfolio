@@ -9,55 +9,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/project.css">
     <link rel="stylesheet" media="screen and (max-width: 1170px)" href="./style/phone.css">
+    <link rel="stylesheet" href="../card.css">
+    <link rel="stylesheet" href="./style/project.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark na">
-        <div class="container-fluid">
+        <div class="container-fluid na">
             <a class="navbar-brand" href="../index.html"><img class="d-inline-block align-text-top"src="./img/logo.jpg" width="50" height="50"></a>
             <a class="navbar-brand" href="../index.html">Sankit kundu</a>
-          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse na" id="navbarSupportedContent">
+        </button>
+        <div class="collapse navbar-collapse na" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html" style="color: white !important;">Home</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./about.html">About</a>
-              </li>
+            </li>
             </ul>
-          </div>
         </div>
-      </nav>
-    <section id="services-container">
-        <div id="services">
-            <div class="box">
-                <h2 class="h-secondary center">Best online Meal</h2><br>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Online Bus ticket</h3>
+                <h3>booking system</h3>
                 <p>This is a online bus ticket booking website which I have created using html,css,javascript</p>
-                <div class="button"> 
-                    <button class="btn"><a href="https://website-by-sankit-kundu.herokuapp.com/">see</a></button>
-                    <button class="btn"><a href="https://github.com/san234751/project">View code</a></button> 
-                </div>
-            </div>
-            <div class="box">
-                <h2 class="h-secondary center">Online Bus ticket booking system</h2><br>
-                <p>This is a online food delivery website which I have created using html,css,javascript</p>
-                <div class="button">
-                    <button class="btn"><a href="https://bus-ticket-booker.herokuapp.com/">see</a></button> 
-                    <button class="btn"><a href="https://github.com/san234751/Online-bus-ticket-book">View code</a></button> 
-                </div>
+                <a href="https://bus-ticket-booker.herokuapp.com/">see</a>
+                <a href="https://github.com/san234751/Online-bus-ticket-book">code</a>
             </div>
         </div>
-    </section>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Best online Meal</h3>
+                <p>This is a online food delivery website which I have created using html,css,javascript</p>
+                <a href="https://website-by-sankit-kundu.herokuapp.com/">see</a>
+                <a href="https://github.com/san234751/project">code</a>
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
         <div class="sun">
             <div class="star"></div>
@@ -89,5 +91,14 @@
         </div>
     </div>
 </body>
+<script type="text/javascript" src="../vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1
+});
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
