@@ -1,6 +1,9 @@
 .na{
   color: white;
 }
+.na ul li a{
+  color: white;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -10,41 +13,6 @@ html {
 }
 body {
   background-color: black;
+  background: #161623;
   font-family: "Lobster", cursive;
-  font-size: 20px;
-}
-.btn {
-  padding: 6px 20px;
-  border: 2px solid grey;
-  background-color: white;
-  color: black;
-  margin: 17px;
-  font-family: "Lobster", cursive;
-  font-size: 1rem;
-  border-radius: 20px;
-  cursor: pointer;
-}
-.btn a {
-  text-decoration: none;
-}
-.btn:hover {
-  background-color: white;
-}
-#services{
-  margin: 34px;
-  display: flex;
-  color: white;
-}
-#services .box{ 
-  border: 2px solid brown;
-  padding: 34px;
-  margin: 2px 55px;
-  border-radius: 10px;
-  background: black;
-  margin-bottom: 20px;
-}
-#services .box h1{ 
- height: 160px;
- margin: auto;
- display: block;
 }
