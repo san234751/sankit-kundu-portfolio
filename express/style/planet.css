@@ -1,5 +1,5 @@
 html {
-  background-color: #000;
+  background: #161623;
 }
 body {
   height: 100%;
@@ -14,6 +14,7 @@ body {
   perspective: 1000px;
   perspective-origin: 60% 50%;
   transform: rotate(-10deg);
+   background: #161623;
 }
 .wrapper > div {
   position: relative;
