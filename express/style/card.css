@@ -72,6 +72,7 @@ body .san{
 }
 .container .card:hover .content{
     transform: translateY(0);
+    z-index: 3;
     opacity: 1;
 }
 .container .card .content h2{
