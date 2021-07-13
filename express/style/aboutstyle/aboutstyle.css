@@ -12,11 +12,11 @@
   padding: 20px;
 }
 .wrapper .card{
-/*   width: calc(33% - 20px);
+  width: calc(33% - 20px);
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly; */
+/*   justify-content: space-evenly; */
 /*   flex-direction: column; */
   box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
   border-radius: 15px;
