@@ -1,24 +1,4 @@
 
-@media screen and (max-width: 950px) {
-  .introduction {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .introduction img {
-    margin: 0;
-    padding: 0px;
-    height: 30vh;
-    width: 60vw;
-    border-radius: 100%;
-    display: block;
-  }
-  .intro {
-    margin: 0;
-    padding: 0;
-  }
-}
 .front-image{
   animation: updown 1s infinite alternate;
 }
@@ -34,7 +14,10 @@ body {
   font-family: "Lobster", cursive;
   font-size: 20px;
 }
-
+nav {
+  display: flex;
+  margin: 2vh;
+}
 .front-image {
   padding: 20px 50px;
   height: 50vh;
@@ -45,8 +28,7 @@ section {
   display: flex;
 }
 .intro {
-  margin-top: 10vh;
-  text-align: center;
+  margin-top: 2vh;
 }
 .intro1 {
   margin-top: 2vh;
@@ -76,5 +58,56 @@ section {
   }
   100% {
       transform: translateY(-10px);
+  }
+}
+.intro{
+  text-align: center;
+}
+.na{
+  display: flex;
+  flex-direction: column;
+}
+.facebook{
+  margin: 35px;
+}
+.github{
+  margin: 35px;
+
+}
+.linkdin{
+  margin: 35px;
+}
+@media screen and (max-width: 950px) {
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introduction img {
+    margin: 0;
+    padding: 0px;
+    height: 30vh;
+    width: 60vw;
+    border-radius: 100%;
+    display: block;
+  }
+  .intro {
+    margin: 0;
+    padding: 0;
+  }
+  .na{
+    display: flex;
+    flex-direction: row;
+  }
+  .facebook{
+    margin: 40px;
+  }
+  .github{
+    margin: 40px;
+  
+  }
+  .linkdin{
+    margin: 40px;
   }
 }
