@@ -51,6 +51,7 @@
     </div>
     <div class="skills">
       <h1>Skills</h1>
+      <hr>
       <div class="wrapper">
         <div class="card">
             <div class="circle">
@@ -66,7 +67,7 @@
           </div>
           <div class="text">JavaScript</div>
         </div>
-        <div class="card react">
+        <div class="card cpp">
           <div class="circle">
             <div class="bar"></div>
             <div class="box"><span></span></div>
@@ -79,6 +80,13 @@
             <div class="box"><span></span></div>
           </div>
           <div class="text">CSS</div>
+        </div>
+        <div class="card python">
+          <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="text">Python</div>
         </div>
       </div>
     </div>
@@ -96,11 +104,14 @@
       $(".js .bar").circleProgress({
         value: 0.40
       });
-      $(".react .bar").circleProgress({
+      $(".cpp .bar").circleProgress({
         value: 0.90
       });
       $(".css .bar").circleProgress({
         value: 0.70
+      });
+      $(".python .bar").circleProgress({
+        value: 0.60
       });
     </script>
 </body>
