@@ -12,8 +12,8 @@
   padding: 20px;
 }
 .wrapper .card{
-  width: calc(33% - 20px);
-  height: 300px;
+/*   width: calc(33% - 20px); */
+/*   height: 300px; */
   display: flex;
   align-items: center;
 /*   justify-content: space-evenly; */
