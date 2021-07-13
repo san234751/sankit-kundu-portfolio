@@ -47,7 +47,7 @@ body .san{
     flex-wrap: wrap;
     z-index: 1;
 }
-.container .card{
+.card{
     position: relative;
     width: 280px;
     height: 400px;
