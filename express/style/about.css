@@ -1,0 +1,14 @@
+body{
+    background: #161623;
+    color: white;
+    font-family: "Lobster", cursive;
+}
+.intro1 {
+    margin-top: 2vh;
+    margin-left: 1vw;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    margin: 2vh;
+  }
