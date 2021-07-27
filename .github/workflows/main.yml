@@ -12,7 +12,10 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
-      
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
     - name: start project
       run: |
         npm start
