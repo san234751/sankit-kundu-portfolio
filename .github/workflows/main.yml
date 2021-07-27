@@ -1,16 +1,16 @@
 on: push
-name: Deploy website on push
+name: 🚀 Deploy website on push
 jobs:
   web-deploy:
-    name: Deploy
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Get latest code
+    - name: 🚚 Get latest code
       uses: actions/checkout@v2
     
-    - name: Sync files
+    - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftpupload.net
-        username: epiz_29247647
+        server: ftp.samkirkland.com
+        username: myFtpUserName
         password: ${{ secrets.ftp_password }}
