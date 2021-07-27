@@ -12,13 +12,6 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
-    - name: 🔨 Build Project
-      run: |
-        npm install
-        npm install nodemon
-        npm install express
-        npm install mongoose
-        npm install path
     - name: start project
       run: |
-        npm star
+        npm start
