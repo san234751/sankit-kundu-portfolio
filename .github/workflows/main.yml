@@ -21,4 +21,4 @@ jobs:
         npm install path
     - name: start project
       run: |
-        npm start
+        npm star
