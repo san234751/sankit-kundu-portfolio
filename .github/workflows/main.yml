@@ -8,11 +8,11 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
 
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+    - name: Use Node.js 12
+      uses: actions/setup-node@v2-beta
       with:
-        server: ftpupload.net
-        username: epiz_29247647
-        password: ${{ secrets.ftp_password }}
-        protocol: ftp
-        port: 21 # todo replace with your web hosts ftps port
+        node-version: '12'
+      
+    - name: start project
+      run: |
+        npm start
