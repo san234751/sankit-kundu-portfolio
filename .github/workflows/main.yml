@@ -15,7 +15,10 @@ jobs:
     - name: 🔨 Build Project
       run: |
         npm install
-        npm run build
+        npm install nodemon
+        npm install express
+        npm install mongoose
+        npm install path
     - name: start project
       run: |
         npm start
