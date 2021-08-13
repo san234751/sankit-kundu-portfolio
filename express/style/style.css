@@ -107,3 +107,7 @@ section {
     margin: 40px;
   }
 }
+.link a{
+  text-decoration: none;
+  font-style: italic;
+}
