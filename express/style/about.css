@@ -6,5 +6,9 @@ body{
 .intro1 {
     margin-top: 2vh;
     margin-left: 1vw;
+    width: 90%;
     text-align: center;
-  }
+}
+.skills{
+    text-align: center;
+}
