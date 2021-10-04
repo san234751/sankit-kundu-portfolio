@@ -46,7 +46,7 @@ img{
 .home_image{
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: 0;
   width: 295px;
 }
 .container1{
@@ -180,7 +180,7 @@ img{
   }
   .home_image{
     width: 430px;
-    bottom: 15%;
+    bottom: 0;
   }
   .container1{
     grid-template-columns: repeat(3, 1fr);
