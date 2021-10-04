@@ -1,12 +1,11 @@
 body{
     background: #161623;
     color: white;
-    font-family: "Lobster", cursive;
 }
 .intro1 {
     margin-top: 2vh;
     margin-left: 1vw;
-    width: 90%;
+    width: 80%;
     text-align: center;
 }
 .skills{
