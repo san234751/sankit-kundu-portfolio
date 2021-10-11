@@ -48,7 +48,7 @@ img{
 .home_image{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 20%;
   width: 295px;
 }
 .container1{
@@ -201,6 +201,6 @@ img{
     margin-right: auto;
   }
   .home_image{
-    right: 10%;
+    right: 8%;
   }
 }
