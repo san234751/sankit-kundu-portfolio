@@ -3,8 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 *,::before,::after{
-  margin:0;
-  padding:0;
   box-sizing: border-box;
 }
 body {
@@ -48,7 +46,7 @@ img{
 .home_image{
   position: absolute;
   right: 0;
-  bottom: 20%;
+  bottom: 10px;
   width: 295px;
 }
 .container1{
@@ -182,7 +180,7 @@ img{
   }
   .home_image{
     width: 430px;
-    bottom: 0;
+    bottom: 15%;
   }
   .container1{
     grid-template-columns: repeat(3, 1fr);
@@ -201,6 +199,6 @@ img{
     margin-right: auto;
   }
   .home_image{
-    right: 8%;
+    right: 10%;
   }
 }
