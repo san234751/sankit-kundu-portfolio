@@ -37,6 +37,7 @@ img{
   margin-right: 1rem;
 }
 .home{
+  position: relative;
   height: calc(100vh - 3rem);
   row-gap: 1rem;
 }
@@ -46,7 +47,7 @@ img{
 .home_image{
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: 20px;
   width: 295px;
 }
 .container1{
