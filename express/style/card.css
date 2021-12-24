@@ -5,8 +5,6 @@
 }
 .container{
     display: flex;
-    /*justify-content: center;
-    align-items: center;*/
     min-height: 100vh;
     min-width: 100vw;
     background: #161623;
@@ -41,8 +39,6 @@ body .san{
 .container{
     position: relative;
     display: flex;
-    /*justify-content: center;
-    align-items: center;*/
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
