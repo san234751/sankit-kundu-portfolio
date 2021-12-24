@@ -72,6 +72,9 @@ img{
   font-weight: 600;
   border-radius: .5rem;
 }
+.button a:hover{
+  color: #fff !important;
+}
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
