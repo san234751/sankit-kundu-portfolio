@@ -65,7 +65,7 @@ img{
   text-align: center;
 }
 .button{
-  /* display: inline-block; */
+  display: inline-block;
   background-color: #4070F4;
   color: #fff;
   padding: .75rem 2.5rem;
